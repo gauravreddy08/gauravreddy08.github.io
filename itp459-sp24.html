@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+  <title>ITP 459</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href="styles/css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="styles/font-awesome.min.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1153.0" data-gr-ext-installed="" class="vsc-initialized">
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand brand" href="">ITP 459</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://_/index.html#coursework">Coursework</a></li>
+        <li><a href="https://_/office_hours.html">Office Hours</a></li>
+        <li><a href="https://_/index.html#schedule">Schedule</a></li>
+        <li><a href="https://_/index.html#schedule">Syllabus</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<div id="header" style="text-align:center">
+
+  <h1>ITP 459 : Generative AI and Applied Machine Learning
+  </h1><h1>
+    for Natural Language Processing (NLP)</h1>
+  <h3>University of Southern California / Spring 2024</h3>
+  <div style="clear:both;"></div>
+</div>
+
+<!-- Intro -->
+<div class="container sec" id="intro">
+
+  <p>
+    This course provides an in-depth exploration of Artificial Intelligence technologies, with a particular focus on advancements in Natural Language Processing (NLP) and Generative AI. Delve into renowned AI models like GPT, BERT, and their applications, gaining hands-on experience with powerful tools like TensorFlow, Keras, and Hugging Face.
+  </p>
+  <p>
+    Throughout the course, you'll gain a solid understanding of NLP fundamentals and learn about the diverse range of technologies and products developed using NLP and Generative AI. This includes a comprehensive study of how these technologies are revolutionizing text processing and generation.
+
+    Key highlights of the course include practical sessions on utilizing pre-trained Large Language Models (LLMs), where you'll learn how to use their APIs for various applications. You'll also acquire skills in fine-tuning LLMs for specialized tasks, and gain insights into the methodologies for retraining these models to suit specific requirements.
+  </p>
+</div>
+
+<div class="container sec" id="intro">
+  <h2>Course Members</h2>
+  <br>
+  <div class="course-assistants">
+    <div class="profile">
+        <img src="https://media.licdn.com/dms/image/C5603AQGxuO9IIbpSVg/profile-displayphoto-shrink_800_800/0/1602790899592?e=2147483647&v=beta&t=8XBc4pWSncr6I4-beGMSz6HrpHoaxyYt8CJh5RFiR_A" alt="Name1" width="100%">
+        <div><b><font color="#990000"><a style="color:#990000";" href="https://www.linkedin.com/in/allenbolourchi/">Allen Bolourchi</a></font></b></div>
+        Adjunct Professor of Generative AI and NLP at USC <br>
+Founder of <a href="https://www.crystalytic.ai/">Crystalytic.AI</a>
+    </div>
+    <div class="profile">
+        <img src="assets/rajeev.jpg" alt="Name2" width="100%">
+        <div><b><font color="#990000">Rajeev Singh</font></b></div>
+        <a href="https://www.linkedin.com/in/rajeevsinghusc/">LinkedIn</a>
+    </div>
+    <div class="profile">
+        <img src="assets/gaurav.jpeg" alt="Name3" width="100%">
+        <div><b><font color="#990000">Gaurav Tadkapally</font></b></div>
+        <a href="https://www.linkedin.com/in/gauravreddy08">LinkedIn</a>
+
+    </div>
+   
+</div>
+
+ <br>
+  <br>
+
+<!-- Staff Info -->
+<div class="sechighlight">
+  <div class="container sec" id="people">
+    <div class="container sec" id="logistics">
+      <h2>Logistics</h2>
+      <ul>
+        <li><b>Lectures:</b> are on Monday 6:30 PM - 9:20 PM Pacific Time at KAP 144</a>. The lectures will also be recorded and be avaialble on <a href="https://">____</a></li>
+        <li><b>Office hours</b>: Hybrid format with remote (over Google Meet) or in person options.</li>
+        <li><b>Contact</b>: Students should ask <i>all</i> course-related questions in the Piazza forum, where you will also find announcements. For external enquiries, emergencies, or personal matters that you don't wish to put in a private Piazza post, you can email at <i>bolourch@usc.edu</i>.</li>
+        <li><b>Course Notes:</b> Lecture slides, assignments, readings, announcements, and other class information will be posted on Blackboard.</li>
+      </ul>
+    </div>
+
+    <div class="container sec" id="content">
+      <h2>Course Notes</h2>
+      <ul>
+        <li><b>Co-Requisite(s):</b> None</li>
+        <li><b>Concurrent Enrollment:</b> None</li>
+        <li><b>Recommended Preparation:</b> Google Colab</li>
+        <li><b>Technological Proficiency:</b> Familiarity with Google Colab and Python is necessary. If you haven’t used them, familiarize yourself
+          with Google Colab and set it up. We will teach you the rest of the python packages in the classroom.
+          <ul>
+            <li><b>Google Colab: </b><a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+            <li><b>Python packages: </b>Keras, PyTorch, TensorFlow, scikit-learn - <a href="https://www.tensorflow.org/">https://www.tensorflow.org/</a></li>
+          </ul>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Coursework -->
+<!-- Note the margin-top:-20px and the <br> serve to make the #coursework hyperlink display correctly (with the h2 header visible) -->
+<div class="sechighlight">
+<div class="container sec" id="coursework" style="margin-top:-20px">
+<h2>Coursework</h2>
+  <h4>Assignments (26%)</h4>
+  <p>
+    There are weekly assignments, which will improve both your theoretical understanding and your practical skills. All assignments contain both written questions and programming parts. Only top 13 assignments will be considered.
+  </p>
+
+  <h4>Final Presentation: GenAI (10%)</h4>
+
+  <h4>Final Project (25% + 4%)</h4>
+
+  <h4>Mid term Exam (15%)</h4>
+
+  <h4>Final Exam (25%)</h4>
+  <!-- <h3>Late Days</h3>
+  <ul>
+    <li>Each student has 6 late days to use. A late day extends the deadline 24 hours. You can use up to 3 late days per assignment (including all five assignments, project proposal, project milestone and project final report).</li>
+    <li>Final project teams can <b>share</b> late days between members. For example, a group of three people must have at least six late days between them to extend the deadline by two days. <em>If any late days are being shared, this must be clearly marked at the beginning of the report, and we will release a form on Ed that teams should fill out.</em>.</li>
+    <li>Once you have used all 6 late days, the penalty is 1% off the final course grade for each additional late day.</li>
+  </ul> -->
+
+  <!-- <h3>Regrade Requests</h3>
+  <p>
+    If you feel you deserved a better grade on an assignment, you may submit a regrade request on Gradescope within 3 days after the grades are released.
+    Your request should briefly summarize why you feel the original grade was unfair.
+    Your TA will reevaluate your assignment as soon as possible, and then issue a decision.
+    If you are still not happy, you can ask for your assignment to be regraded by an instructor.
+  </p> -->
+
+  <hr>
+  <h4>All students welcome</h4>
+  <p>
+    We are committed to doing what we can to work for equity and to create an inclusive learning environment that actively values the diversity of backgrounds, identities, and experiences of everyone in ITP 459. We also know that we will sometimes make missteps. If you notice some way that we could do better, we hope that you will let someone in the course staff know about it.
+  </p>
+
+
+
+  <h4>AI Tools Policy</h4>
+  <p>
+    Students are required to independently submit their solutions for ITP 459 homework assignments. Collaboration with generative AI tools such as Co-Pilot and ChatGPT is allowed, treating them as collaborators in the problem-solving process. However, the direct solicitation of answers or copying solutions, whether from peers or external sources, is strictly prohibited.
+  </p>
+
+
+
+</div>
+</div>
+
+
+<!-- Schedule -->
+<!-- Note the margin-top:-20px and the <br> serve to make the #schedule hyperlink display correctly (with the h2 header visible) -->
+<div class="container sec" id="schedule" style="margin-top:-20px">
+<br>
+
+<h2>Office Hours</h2>
+<table class="table">
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:13%">
+    <col style="width:10%">
+    <col style="width:5%">
+    <col style="width:5%">
+    <col style="width:20%">
+    <col style="width:30%">
+  </colgroup>
+  <thead>
+
+  <tr class="active">
+    <th>Course Assistant</th>
+    <th>Email</th>
+    <th>Mode</th>
+    <th>Location</th>
+    <th>Day</th>
+    <th>Time Slot</th>
+    <th>Meeting Link</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><b>Gaurav Tadkapally</b></td>
+    <td><a href="mailto:tadkapal@usc.edu">tadkapal@usc.edu</a></td>
+    <td>In Person + Online</td>
+    <td>TBD</td>
+    <td>Monday</td>
+    <td>11:00am - 12:00pm	</td>
+    <td><a href="https://meet.google.com/fid-azra-hsg">meet.google.com/fid-azra-hsg</a></td>
+  </tr>
+
+  <tr>
+    <td><b>Rajeev Singh</b></td>
+    <td><a href="mailto:rajeevdh@usc.edu">rajeevdh@usc.edu</a></td>
+    <td>Online</td>
+    <td>Google Meet</td>
+    <td>Thursday</td>
+    <td>02:00pm - 03:00pm</td>
+    <td><a href="https://meet.google.com/oqy-wueg-twt">meet.google.com/oqy-wueg-twt</a></td>
+  </tr>
+
+  <tr>
+    <td><b>Rajeev Singh</b></td>
+    <td><a href="mailto:rajeevdh@usc.edu">rajeevdh@usc.edu</a></td>
+    <td>In Person + Online</td>
+    <td>OHE Patio</td>
+    <td>Monday</td>
+    <td>12:30pm - 01:30pm</td>
+    <td><a href="https://meet.google.com/oqy-wueg-twt">meet.google.com/oqy-wueg-twt</a></td>
+  </tr>
+
+    
+
+    
+
+  </tbody>
+</table>
+
+<h2>Schedule</h2>
+<p>
+  Updated lecture <b>slides</b> will be posted on <i>Blackboard</i> before each lecture. 
+</p>
+<table class="table">
+  <colgroup>
+    <col style="width:10%">
+    <col style="width:70%">
+    <col style="width:20%">
+  </colgroup>
+  <thead>
+
+  <tr class="active">
+    <th>Date</th>
+    <th>Description</th>
+    <th>Assignments</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><b><font color="#990000">Week 1</font></b><br>Mon Jan 8</td>
+    <td>Class Introduction
+      Intro to NLP and AI
+      <br>
+    </td>
+    <td>
+    </td>
+  </tr>
+
+    
+  <tr class="warning">
+    <td><b><font color="#990000">Week 2</font></b><br>Mon Jan 15</td>
+    <td>Holiday
+      <br>
+    </td>
+    <td>
+      Assignment 1
+      <br> <font color="#990000">Deadline: 1/16</font>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><b><font color="#990000">Week 3</font></b><br>Mon Jan 22</td>
+    <td>Fundamentals of Machine Learning for NLP
+      <br>
+    </td>
+    <td>
+      Assignment 2
+      <br> <font color="#990000">Deadline: (Extended
+        to 1/29)</font>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><b><font color="#990000">Week 4</font></b><br>Mon Jan 29</td>
+    <td>Neural Networks and Deep
+      Learning in NLP
+      <br>
+    </td>
+    <td>
+      Assignment 3
+      <br> <font color="#990000">Deadline: 1/29</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 5</font></b><br>Mon Feb 5</td>
+    <td>Transformer Models and
+      Attention Mechanisms
+      <br>
+    </td>
+    <td>
+      Assignment 4
+      <br> <font color="#990000">Deadline: 2/05</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 6</font></b><br>Mon Feb 12</td>
+    <td>Syntax, Parsing, Word
+      Embeddings, and POS Tagging
+      <br>
+    </td>
+    <td>
+      Assignment 5
+      <br> <font color="#990000">Deadline: 2/12</font>
+    </td>
+  </tr>
+
+  <tr class="warning">
+    <td><b><font color="#990000">Week 7</font></b><br>Mon Feb 19</td>
+    <td>Holiday
+      <br>
+    </td>
+    <td>
+      Assignment 6
+      <br> <font color="#990000">Deadline: 2/20</font>
+    </td>
+  </tr>
+
+    
+
+  <tr class="warning">
+    <td><b><font color="#990000">Week 8</font></b><br>Mon Feb 26</td>
+    <td>Text Classification & Machine
+Translation + <b><font color="#990000">Midterm Exam</font></b>
+      <br>
+    </td>
+    <td>
+      Assignment 7
+      <br> <font color="#990000">Deadline: 2/27</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 9</font></b><br><br>Mon Mar 4</td>
+    <td>Advanced Topics in Machine
+      Learning and NLP
+      <br>
+    </td>
+    <td>
+      Assignment 8
+      <br> <font color="#990000">Deadline: 2/26</font>
+    </td>
+  </tr>
+
+  <tr class="warning">
+    <td>Mon Mar 11</td>
+    <td><b><font color="#990000">Spring Break</font></b></td>
+      <br>
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 10</font></b><br>Mon Mar 18</td>
+    <td>Named Entity Recognition,
+      Information Retrieval and Search
+      <br>
+    </td>
+    <td>
+      Assignment 9
+      <br> <font color="#990000">Deadline: 3/18</font>
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td><b><font color="#990000">Week 11</font></b><br>Mon Mar 25</td>
+    <td>Advanced Machine Translation
+      and Summarization
+      <br>
+    </td>
+    <td>
+      Assignment 10
+      <br> <font color="#990000">Deadline: 3/25</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 12</font></b><br>Mon Apr 01</td>
+    <td>Speech Processing and
+      Conversational AI
+      <br>
+    </td>
+    <td>
+      Assignment 11
+      <br> <font color="#990000">Deadline: 4/01</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 13</font></b><br>Mon Apr 08</td>
+    <td>Generative AI, Ethical
+      Considerations, and NLP APIs
+      <br>
+    </td>
+    <td>
+      Assignment 12
+      <br> <font color="#990000">Deadline: 4/08</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 14</font></b><br>Mon Apr 15</td>
+    <td>Fine-Tuning LLMs, Hugging Face,
+      LangChain
+      <br>
+    </td>
+    <td>
+      Assignment 13
+      <br> <font color="#990000">Deadline: 4/15</font>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 15</font></b><br>Mon Apr 22</td>
+    <td>Course Review, Future Trends + <b><font color="#990000">Final Exam</font>
+      <br>
+    </td>
+    <td>
+      Assignment 14
+      <br> <font color="#990000">Deadline: 4/23</font>
+    </td>
+  </tr>
+
+  <tr class="warning">
+    <td>Mon Apr 29</td>
+    <td><b><font color="#990000">Study Day</font></b></td>
+      <br>
+    </td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+    <td><b><font color="#990000">Week 16</font></b><br>Mon May 06</td>
+    <td>Final Project Presentations
+      <br>
+    </td>
+    <td>
+    </td>
+  </tr>
+
+  </tbody>
+</table>
+</div>
+
+</body>
