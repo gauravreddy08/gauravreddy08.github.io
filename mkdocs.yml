@@ -1,7 +1,6 @@
 site_name: Gaurav
 site_url: https://gauravreddy08.github.io/portfolio/
 
-  
 theme:
   name: material
   features:
@@ -18,6 +17,9 @@ extra:
       link: https://github.com/gauravreddy08
     - icon: fontawesome/brands/github 
       link: https://github.com/gauravreddy08
+  analytics:
+    provider: google
+    property: G-DM0TS6BH4Y
     
 
 markdown_extensions:
