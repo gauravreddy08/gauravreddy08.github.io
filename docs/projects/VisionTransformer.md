@@ -72,7 +72,10 @@ So as an initial input through our network, images are resized and cropped into 
 > 
 > The position of a patch relative to the whole image proves to be crucial information. For example, the whitespace in "the rapist" and "therapist." Transformers, unlike LSTMs, take inputs in parallel and all at once, which means they lose information about the sequence of these patches. To avoid this, we couple each image embedding with its respective positional embedding. [`source`](https://www.youtube.com/watch?v=dichIcUZfOw&ab_channel=HeduAI)
 
-$\mathbf{z}_0=\left[\mathbf{x}_{\text {class }} ; \mathbf{x}_p^1 \mathbf{E} ; \mathbf{x}_p^2 \mathbf{E} ; \cdots ; \mathbf{x}_p^N \mathbf{E}\right]+\mathbf{E}_{p o s}, \quad \mathbf{E} \in \mathbb{R}^{\left(P^2 \cdot C\right) \times D}, \mathbf{E}_{p o s} \in \mathbb{R}^{(N+1) \times D}$
+$$
+\mathbf{z}_0 = \left[ \mathbf{x} ; \mathbf{x}_p^1 \mathbf{E} ; \mathbf{x}_p^2 \mathbf{E} ; \cdots ; \mathbf{x}_p^N \mathbf{E} \right] + \mathbf{E}, \quad \mathbf{E} \in \mathbb{R}^{\left(P_2 \cdot C\right) \times D}, \quad \mathbf{E}_{\text{pos}} \in \mathbb{R}^{(N+1) \times D}
+$$
+
 
 Equation 1 pretty much sums up the whole content above, into a mathematical form. 
 
@@ -346,7 +349,7 @@ Our model fails to perform well cause of multiple reasons, few major ones are:
 
 Apart from these, the research team had plethora of resources, money and most importantly time. They worked on this model for days, weeks, months and even year presumably, trying and tweaking several hyper-parameters to achieve the best weights as possible. 
 
-As of February 2023, the price for renting a TPUv4 (Tensor Processing Unit version 4) with 8 cores on Google Cloud is **$12.88** per hour. To rent one for 30 straight days would cost **$5,924 USD per month**.
+As of February 2023, the price for renting a TPUv4 (Tensor Processing Unit version 4) with 8 cores on Google Cloud is **\$12.88** per hour. To rent one for 30 straight days would cost **\$5,924 USD per month**.
 
 This cost (monetary and time) may be viable for some *larger research teams* or enterprises but for many people it's not.
 

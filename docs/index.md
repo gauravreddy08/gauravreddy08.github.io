@@ -20,13 +20,13 @@ hide:
 
     Technical articles, tutorials, and notes on anything __machine learning__.
 
-- [__ML Grind__](ml-grind/index.md)
+- [__ML Grind__](ML-Grind/index.md)
 
     ---
 
     Daily logs of my re-learning process in machine learning. Updated regularly with new insights and experiments.
 
-    [Follow the Journey on :material-twitter: Twitter ](mlgrind/index.md)
+    [Follow the Journey on :material-twitter: @GTadkapally ](https://x.com/GTadkapally)
 
 </div>
 
