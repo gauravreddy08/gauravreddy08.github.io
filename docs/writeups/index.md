@@ -6,7 +6,7 @@
 
     ---
 
-    A collection of machine learning projects focused on RAG, LLMs, Transformers, and deep neural networks. 
+    Rethinking how pooling layers in CNNs do more than just reduce dimensionality; they introduce approximate invariance, helping the network stay focused on key features while ignoring minor variations and noise in input data.
 
 </div>
 
