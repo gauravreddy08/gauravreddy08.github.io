@@ -20,4 +20,4 @@ hide:
 
 [**Xtinguish**](xtinguish.md): An CNN Image Classfication model which helps in detecting and preventing Wildfires
 
-[**FoodVision**](foodvision.md): An end-to-end CNN Image Classification Model which identifies the food in your image
+[**FoodVision**](FoodVision.md): An end-to-end CNN Image Classification Model which identifies the food in your image
