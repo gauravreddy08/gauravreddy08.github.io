@@ -61,6 +61,10 @@ While the input tokens remain the same, the naive approach generates **782 outpu
 ??? quote "Credits"
     Credits go to [Continue Blog](https://blog.continue.dev/instant-apply/)—just learning, implementing, and hoping to bring fresh eyes to the space! 🚀
 
+??? quote "Open to work"
+
+    [:material-file-document: Resume](../../resume.pdf){:target="_blank"}
+
 
 
 

@@ -99,4 +99,4 @@ In conclusion, while convolutional layers are typically viewed as the "workhorse
 
 ??? quote "Open to work"
 
-    [:material-file-document: Resume](https://media.licdn.com/dms/document/media/D562DAQE5rfcTKxdUYw/profile-treasury-document-pdf-analyzed/0/1722057119723?e=1730937600&v=beta&t=-o8S5hQXoSPlw4BYpGx3l6ooFaLUJc5ogIbnfVyLj-Q){:target="_blank"}
+    [:material-file-document: Resume](../../resume.pdf){:target="_blank"}
