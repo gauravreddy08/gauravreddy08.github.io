@@ -2,7 +2,11 @@
 
 ![header](header.gif)
 
-### **Why Do We Need a Speed-Up?**
+<div style="text-align: center">
+<a href='https://youtube.com/watch?v=hc_7q45rHvY'><strong>Watch Demo on Youtube</strong></a>
+</div>
+
+
 
 Because Waiting is the Worst. We all love fast things, faster cars, faster internet, faster food delivery!
 
@@ -40,7 +44,7 @@ Simple. We ask the LLM to omit unchanged code using markers like `# unchanged co
 
 Then comes the challenge: how do we integrate these changes into the existing code? This is where [tree parsers](https://tree-sitter.github.io/tree-sitter/) come in. Using them, I can analyze the generated code, identify changed code blocks, and update only those specific sections in the original file. If there’s a new code block, it gets added. If an existing block has changed, only that portion gets rewritten.
 
-For example, I took a 145-line CSS file and asked the LLM to change just one line—setting the `font-size` in the `body` selector to `30px`. Instead of regenerating the entire file, the LLM only produced the `body` selector class and denoted the remaining code as unchanged. Using precomputed code blocks and simple hash lookups, I identified that only the `body` selector had been modified, ensuring that only that portion was updated.
+For example, I took a 450-line CSS file and asked the LLM to change just one line—setting the `font-size` in the `body` selector to `50px`. Instead of regenerating the entire file, the LLM only produced the `body` selector class and denoted the remaining code as unchanged. Using precomputed code blocks and simple hash lookups, I identified that only the `body` selector had been modified, ensuring that only that portion was updated.
 
 ![demo](block-demo.gif)
 
@@ -49,14 +53,17 @@ To explain it more clearly, let’s say my CSS file contains 30 different select
 ## **Final Comparision**
 <figure markdown="span">
   ![sdsdsd](demo.gif)
-  <figcaption>Better video on <a href="https://youtu.be/U9VHQZDTzo4">Youtube</a></figcaption>
+  <figcaption>Better video on <a href="https://youtube.com/watch?v=hc_7q45rHvY">Youtube</a></figcaption>
 </figure>
 <!-- ![demo]() -->
 
 
 ### **The Numbers (stats)**
 
-While the input tokens remain the same, the naive approach generates **782 output tokens**, whereas the smarter approach generates **59**. Likewise, the time taken in the naive approach is **15 seconds**, while the optimized method takes less than **5 seconds**. I used OpenAI’s GPT-4o API for these results, but we could achieve even better performance using an on-device model.
+While the input tokens remain the same, the naive approach generates **2400 output tokens**, whereas the smarter approach generates **61**. Likewise, the time taken in the naive approach is **66 seconds**, while the optimized method takes less than **4 seconds**. I used OpenAI’s GPT-4o API for these results, but we could achieve even better performance using an on-device model.
+
+!!! abstract "Code"
+    Do follow me! [__Github__ :simple-github:](https://github.com/gauravreddy08/codegen-accelerated)
 
 ??? quote "Credits"
     Credits go to [Continue Blog](https://blog.continue.dev/instant-apply/)—just learning, implementing, and hoping to bring fresh eyes to the space! 🚀
