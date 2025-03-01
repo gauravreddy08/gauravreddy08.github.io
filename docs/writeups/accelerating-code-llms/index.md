@@ -6,6 +6,14 @@
 <a href='https://youtube.com/watch?v=hc_7q45rHvY'><strong>Watch Demo on Youtube</strong></a>
 </div>
 
+??? quote "TL;DR"
+
+    <div style="text-align: center">
+    ![demo](demo.gif)
+    </div>
+
+    
+### __Why do we need to speed up?__
 
 
 Because Waiting is the Worst. We all love fast things, faster cars, faster internet, faster food delivery!
@@ -51,24 +59,25 @@ For example, I took a 450-line CSS file and asked the LLM to change just one lin
 To explain it more clearly, let’s say my CSS file contains 30 different selectors, among which only one—`body`—needs a change. If we denote the input selectors as A, B, C, D, etc., and the output selectors as `...` (for comments), B' (for changed selectors), and E (for new selectors), we compare these and apply only the necessary updates. This comparison process, powered by hash lookups, ensures precise, efficient modifications.
 
 ## **Final Comparision**
-<figure markdown="span">
-  ![sdsdsd](demo.gif)
-  <figcaption>Better video on <a href="https://youtube.com/watch?v=hc_7q45rHvY">Youtube</a></figcaption>
-</figure>
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9T9ORFVy3v8?si=Y-xETDWVhQ7jvC_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 <!-- ![demo]() -->
 
 
 ### **The Numbers (stats)**
 
-While the input tokens remain the same, the naive approach generates **2400 output tokens**, whereas the smarter approach generates **61**. Likewise, the time taken in the naive approach is **66 seconds**, while the optimized method takes less than **4 seconds**. I used OpenAI’s GPT-4o API for these results, but we could achieve even better performance using an on-device model.
+While the input tokens remain the same, the naive approach generates **2174 output tokens**, whereas the smarter approach generates **61**. Likewise, the time taken in the naive approach is **66 seconds**, while the optimized method takes less than **4 seconds (20x boost)**. 
 
-!!! abstract "Code"
-    Do follow me! [__Github__ :simple-github:](https://github.com/gauravreddy08/codegen-accelerated)
+> I used OpenAI’s GPT-4o API for these results, but we could achieve even better performance using an on-device model.
+
+!!! abstract "Implemented code to reproduce"
+    Do follow me! [__Github__ :simple-github:](https://github.com/gauravreddy08/codegen-accelerated){:target="_blank"}
 
 ??? quote "Credits"
-    Credits go to [Continue Blog](https://blog.continue.dev/instant-apply/)—just learning, implementing, and hoping to bring fresh eyes to the space! 🚀
+    Credits go to [Continue Blog](https://blog.continue.dev/instant-apply/){:target="_blank"}—just learning, implementing, and hoping to bring fresh eyes to the space! 🚀
 
-??? quote "Open to work"
+!!! quote "Open to work"
 
     [:material-file-document: Resume](../../resume.pdf){:target="_blank"}
 

@@ -28,11 +28,12 @@ hide:
 
 </div>
 
-!!! tip "Featured | See how I accelerated LLM code generation by 3x! [:simple-youtube: **Demo**](https://youtu.be/U9VHQZDTzo4) [:material-web: **Blog**](writeups/accelerating-code-llms/index.md)" 
+!!! tip "Featured | See how I accelerated LLM code generation by 20x! [:simple-youtube: **Demo**](https://youtu.be/9T9ORFVy3v8) [:material-web: **Blog**](writeups/accelerating-code-llms/index.md)" 
 
 !!! tip "Featured | testGen: AI Software Tester"
 
-    This project showcases the power of AI-driven test automation, where fine-tuned Code Llama models drastically cut software testing time by 70% while boosting code coverage by 30%. By integrating advanced feedback loops into CI/CD pipelines, this solution ensures faster, more reliable test generation with fewer errors. 
+    __LLM based software test generator__, implemented using optimized LLM decoding strategies (Speculative Decoding), accelerating inference by 3x, and Abstract Syntax Tree
+    (AST)-based retrieval for precise code context. 
     
     [**Watch the demo** :simple-youtube:](https://youtu.be/YVG4W2K_qn0) to see it in action!
 

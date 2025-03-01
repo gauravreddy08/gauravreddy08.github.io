@@ -17,6 +17,8 @@ hide:
 - :material-sine-wave: __Activation Functions__
 - :material-math-sin: __Positional Encodings__
 - :simple-openai: [__GPT2__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/GPT2.ipynb){:target="_blank"}
+- :simple-openai: [__GPT2 Pretraining__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/gpt2-pretraining.py){:target="_blank"}
+
 
 </div>
 
@@ -31,6 +33,7 @@ hide:
 - :material-graph-outline: [__Multi Layered Perceptron__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/MLP.ipynb){:target="_blank"}
 - :material-math-compass: [__Regression Losses__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/regression-loss.ipynb){:target="_blank"}
 - :material-contrast-circle: [__Classification Losses__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/classification-loss.ipynb){:target="_blank"}
+
 
 </div>
 
