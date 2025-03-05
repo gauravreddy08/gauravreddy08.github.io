@@ -35,7 +35,7 @@ hide:
     __LLM based software test generator__, implemented using optimized LLM decoding strategies (Speculative Decoding), accelerating inference by 3x, and Abstract Syntax Tree
     (AST)-based retrieval for precise code context. 
     
-    [**Watch the demo** :simple-youtube:](https://youtu.be/YVG4W2K_qn0) to see it in action!
+    [**Watch the demo** :simple-youtube:](https://youtu.be/PYhTg8f4q08) to see it in action!
 
 !!! quote "[Hire me! :material-file-document: Resume](resume.pdf)"
 

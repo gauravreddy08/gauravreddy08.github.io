@@ -14,7 +14,7 @@ hide:
 
 [**GlancyAI**](GlancyAI.md): LLM (like ChatGPT) that you can talk with, and it recommends products and helps you make your educated guess to buy a product.
 
-[**tesGenAI**](https://www.youtube.com/watch?v=YVG4W2K_qn0&ab_channel=GauravReddyTadkapally): Automated software testing with LLM and code aware RAG. See it's working [here](https://www.youtube.com/watch?v=YVG4W2K_qn0&ab_channel=GauravReddyTadkapally).
+[**tesGen**](https://youtu.be/PYhTg8f4q08): Automated software testing with LLM and code aware RAG. See it's working [here](https://youtu.be/PYhTg8f4q08).
 
 
 

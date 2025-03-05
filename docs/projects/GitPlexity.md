@@ -1,4 +1,8 @@
-![](https://github.com/gauravreddy08/gitplexity/raw/main/assets/logo-spaced.png)
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mouoIGca68k?si=fwb1Dkp41Tmm0eL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+> Watch it working on [Youtube](https://youtu.be/mouoIGca68k)
 
 Navigating large codebases can be overwhelming, whether you're trying to understand a package, debug a product, or steal someone else’s work off GitHub. 
 
@@ -45,7 +49,7 @@ The app uses a Retrieval-Augmented Generation (RAG) system to create a tree-like
 * **AI-Powered Guidance:** Understand files and their roles without needing constant help from teammates.
 * **Developer-Friendly:** Perfect for onboarding, debugging, or simply learning how complex projects work.
 
-??? info "View demo on :simple-facebook: facebook/llama repository"
+??? info "View another demo on :simple-facebook: facebook/llama repository"
     <video width="100%" controls autoplay>
         <source src="https://github.com/gauravreddy08/gitplexity/raw/main/assets/LlamaDemo.mp4" type="video/mp4">
     </video>
