@@ -21,8 +21,8 @@ extra:
       link: https://github.com/gauravreddy08
   analytics:
     provider: google
-    property: G-DM0TS6BH4Y
-    
+    property: G-YMMLD1CVDS
+  
 
 markdown_extensions:
   - attr_list
