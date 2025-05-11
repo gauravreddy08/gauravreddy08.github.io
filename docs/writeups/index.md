@@ -1,4 +1,4 @@
-# Blogs
+# **Blogs**
 
 <div class="grid cards" markdown>
 

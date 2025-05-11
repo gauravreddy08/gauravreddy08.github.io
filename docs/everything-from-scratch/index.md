@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-# Building everything from Scratch
+# **Building everything from Scratch**
 
 
 ## Language Models
