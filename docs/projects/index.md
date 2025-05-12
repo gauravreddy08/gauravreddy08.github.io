@@ -18,7 +18,7 @@ hide:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/mouoIGca68k?si=B3PvwzPkiYES8e65" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <center>I made Perplexity for Github: ^^**GitPlexity**^^. [**Blog** :material-web:](../writeups/accelerating-code-llms){target=_blank}</center>
+    <center>I made Perplexity for Github: ^^**GitPlexity**^^. [**Blog** :material-web:](GitPlexity.md){target=_blank}</center>
 </div>
 
 <div class="grid cards" markdown>
