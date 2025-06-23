@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-# **Gaurav Tadkapally** (looking for work)
+# **Gaurav Tadkapally**
 
 <div class="grid cards" markdown>
 

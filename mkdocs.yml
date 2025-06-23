@@ -4,6 +4,8 @@ site_url: https://www.gtadkapally.com
 theme:
   icon:
     annotation: material/plus-circle
+  favicon: assets/favicon-white.png
+  logo: assets/favicon-white.png
   name: material
   features:
     - content.code.copy
