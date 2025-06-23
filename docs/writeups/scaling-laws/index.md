@@ -57,7 +57,7 @@ Little did you know, OpenAI already did the same analysis with GPT-4. (1)
 
 1. _"To verify the scalability of our optimization infrastructure, we predicted GPT-4’s final loss on our internal codebase by fitting a scaling law, from models trained using the same methodology but using at most 10,000x less compute than GPT-4. This prediction was made shortly after the run started, without use of any partial results. The fitted scaling law predicted GPT-4’s final loss with high accuracy."_ - [GPT-4 Technical Report](https://cdn.openai.com/papers/gpt-4.pdf)
 
-## How low can we go?
+## **How low can we go?**
 
 Classic human greed. Once we know we're making progress, we immediately want to know how far we can push it. I get it.
 
@@ -71,7 +71,7 @@ So what's the absolute lowest loss we can achieve? There's no definitive answer,
 
 - But honestly, let's not obsess over how low we can go or how far we can push this. For the first time in technological history, we have a race where every participant knows the exact same route to the finish line. The scaling equations are public knowledge. The relationship between compute, data, and performance is mathematically explicit.
 
-## Finally, why should we never bet against scaling laws?
+## **Finally, why should we never bet against scaling laws?**
 
 Here's my argument: If you think we're at the peak of language modeling or AI, you're wrong. Most people think that and build projects that take today's frontier models, finetune them (not that finetuning is bad), prompt engineer them, etc., and somehow make them competent enough to power their idea.
 
