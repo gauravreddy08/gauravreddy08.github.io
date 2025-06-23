@@ -7,7 +7,7 @@ if your past self had some kind of mathematical formula to predict future price.
 
 In 2020, OpenAI released, [**_"Scaling Laws for Neural Language Models"_**](https://arxiv.org/abs/2001.08361){target="_blank"}. The research showed that AI model performance follows predictable mathematical curves when you scale three things together: model size, training data, and compute power. The relationship is surprisingly precise, you can literally calculate how much better a model will perform if you make it 10x larger.
 
-**This changed everything.** Before scaling laws, AI research felt like throwing darts in the dark. Teams would try different architectures, training tricks, and novel approaches, never knowing if they'd work. Scaling laws didn't eliminate the need for smart engineering, you still need efficient training algorithms, better hardware utilization, and architectural improvements. But it gave everyone a clear formula: bigger models + more data + more compute = predictably better performance.
+**This changed everything.** Before scaling laws, the common belief was that bigger wasn't always better. And, AI research felt like throwing darts in the dark. Teams would try different architectures, training tricks, and novel approaches, never knowing if they'd work. Scaling laws didn't eliminate the need for smart engineering, you still need efficient training algorithms, better hardware utilization, and architectural improvements. But it gave everyone a clear formula: `bigger models + more data + more compute = predictably better performance`.
 
 $$
 L(N, D) = \left[ \left( \frac{N_c}{N} \right)^{\frac{\alpha_N}{\alpha_D}} + \frac{D_c}{D} \right]^{\alpha_D}
