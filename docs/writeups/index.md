@@ -2,6 +2,12 @@
 
 <div class="grid cards" markdown>
 
+- [__Why Betting Against Scaling is a Losing Game__](scaling-laws/index.md)
+
+    ---
+
+    Exploring the the prophecy of AI, OpenAI's research work: "Scaling laws for neural language models".
+
 - [__Accelerating Code LLMs__](accelerating-code-llms/index.md)
 
     ---

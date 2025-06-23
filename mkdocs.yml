@@ -1,5 +1,5 @@
 site_name: Gaurav
-site_url: https://gauravreddy08.github.io
+site_url: https://www.gtadkapally.com
 
 theme:
   icon:
@@ -16,9 +16,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/linkedin 
-      link: https://github.com/gauravreddy08
+      link: https://www.linkedin.com/in/gauravreddy08/
     - icon: fontawesome/brands/github 
-      link: https://github.com/gauravreddy08
+      link: https://github.com/gtadkapally
   analytics:
     provider: google
     property: G-YMMLD1CVDS
@@ -32,6 +32,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.critic
   - pymdownx.caret
+  - pymdownx.blocks.caption
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde

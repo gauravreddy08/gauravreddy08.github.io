@@ -33,7 +33,7 @@ hide:
 
     [![GlancyAI](https://github.com/gauravreddy08/GlancyAI/raw/main/assets/GlancyAI.gif)](GlancyAI.md)
 
-    <center>^^**GlancyAI**^^: AI that talks and helps you choose what to buy. [**Blog** :material-web:](GlancyAI){target=_blank}</center>
+    <center>^^**GlancyAI**^^: AI that talks and helps you choose what to buy. [**Blog** :material-web:](GlancyAI.md){target=_blank}</center>
 </div>
 
 
