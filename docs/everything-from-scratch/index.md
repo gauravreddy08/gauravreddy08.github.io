@@ -3,40 +3,51 @@ hide:
   - toc
   - navigation
 ---
+# 
+<!-- # **Building everything from Scratch** -->
 
-# **Building everything from Scratch**
+![](banner.png)
 
-
-## Language Models
+## **Language Models**
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-brands-buromobelexperte: __Attention Mechanisms__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Attentions.ipynb){:target="_blank"}
-- [:material-move-resize-variant: __BatchNorm & LayerNorm__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Bacth%26LayerNorm.ipynb){:target="_blank"}
-- [:octicons-number-16: __Simple Tokenizer__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Tokenizer.ipynb){:target="_blank"}
-- :material-sine-wave: __Activation Functions__
-- :material-math-sin: __Positional Encodings__
-- [:octicons-graph-16: __LSTM__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/LSTM){:target="_blank"}
-- [:simple-openai: __GPT2__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/GPT2.ipynb){:target="_blank"}
-- [:simple-openai: __GPT2 Pretraining__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/gpt2-pretraining.py){:target="_blank"}
+- [:simple-openai: __GPT-2__](https://github.com/gauravreddy08/everything-from-scratch/tree/main/GPT2){:target="_blank"}
+- [:simple-meta: __Llama 2__](https://github.com/gauravreddy08/everything-from-scratch/tree/main/llama2){:target="_blank"}
+- [:simple-meta: __Llama 3__](https://github.com/gauravreddy08/everything-from-scratch/tree/main/llama3){:target="_blank"}
+- [:simple-meta: __Llama 3.1__](https://github.com/gauravreddy08/everything-from-scratch/tree/main/llama3.1){:target="_blank"}
+- [:material-fuel-cell: __LSTM__](https://github.com/gauravreddy08/everything-from-scratch/tree/main/LSTM){:target="_blank"}
 
 
 </div>
 
-## Machine Learning
+## **Machine Learning Models**
 
 <div class="grid cards" markdown>
 
-- [:material-chart-timeline-variant-shimmer: __Linear Regression__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/LinearRegression.py){:target="_blank"}
-- [:material-chart-bell-curve-cumulative: __Logistic Regression__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/LogisticRegression.py){:target="_blank"}
-- [:material-scatter-plot: __K Nearest Neighbours (KNN)__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/KNN.py){:target="_blank"}
-- [:material-chart-scatter-plot-hexbin: __K Means__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/KMeans.py){:target="_blank"}
-- [:material-graph-outline: __Multi Layered Perceptron__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/MLP.py){:target="_blank"}
-- [:material-math-compass: __Loss Functions__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/utils/loss_functions.py){:target="_blank"}
+- [:material-chart-timeline-variant-shimmer: __Linear Regression__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/LinearRegression.py){:target="_blank"}
+- [:material-chart-bell-curve-cumulative: __Logistic Regression__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/LogisticRegression.py){:target="_blank"}
+- [:material-chart-bell-curve-cumulative: __Multinomial Logistic Regression__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/MultinomialLogisticRegression.py){:target="_blank"}
+- [:material-scatter-plot: __K-Nearest Neighbors (KNN)__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/KNN.ipynb){:target="_blank"}
+- [:material-chart-scatter-plot-hexbin: __K-Means Clustering__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/KMeans.ipynb){:target="_blank"}
+- [:material-graph-outline: __MLP (Neural Network from Scratch)__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/MLP.py){:target="_blank"}
 
+</div>
+
+## **Attention Mechanisms**
+
+<div class="grid cards" markdown>
+
+- [:material-format-letter-matches: __Self Attention__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Attention/SelfAttention.py){:target="_blank"}
+- [:material-multicast:  __Naive Multi-Head Attention__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Attention/NaiveMultiHeadAttention.py){:target="_blank"}
+- [:material-multicast: __Multi-Head Attention__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Attention/MultiHeadAttention.py){:target="_blank"}
+- [:material-upload-multiple: __Multi-Query Attention__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Attention/MultiQueryAttention.py){:target="_blank"}
+- [:fontawesome-solid-arrows-up-to-line: __Grouped-Query Attention__](https://github.com/gauravreddy08/everything-from-scratch/blob/main/Attention/GroupedQueryAttention.py){:target="_blank"}
 
 </div>
 
 !!! note ""
-    More to come soon!
+    More implementations coming soon!
+
+
 
