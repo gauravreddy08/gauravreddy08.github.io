@@ -2,6 +2,12 @@
 
 <div class="grid cards" markdown>
 
+- [__Building Multi-Agent Systems__](building-multi-agent-systems/index.md)
+
+    ---
+
+    Exploring how to build multi-agent systems with LLMs.
+
 - [__Why Betting Against Scaling is a Losing Game__](scaling-laws/index.md)
 
     ---
