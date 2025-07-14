@@ -2,6 +2,13 @@
 
 <div class="grid cards" markdown>
 
+- [__I made AI play Mafia, and it surprised me__](ai-play-mafia/index.md)
+
+    ---
+
+    I made AI play Mafia, and it surprised me.
+
+
 - [__Building Multi-Agent Systems__](building-multi-agent-systems/index.md)
 
     ---
