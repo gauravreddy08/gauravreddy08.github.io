@@ -33,20 +33,28 @@ hide:
 
 !!! tip "Introducing Flow | I made my own Cursor in a week!"
 
+    <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ij5LJVJD6ac?si=cVLT2aJvIotBlm1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
-    <center>[**Watch it in action** :simple-youtube:](https://youtu.be/PYhTg8f4q08){target=_blank}</center>
+    [**Watch it in action** :simple-youtube:](https://youtu.be/PYhTg8f4q08){target=_blank}</center>
+    </center>
 
-!!! tip "See how I accelerated LLM code generation by 20x!"
+!!! tip "See how I made AI play Mafia!"
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9T9ORFVy3v8?si=HQ6TTpdJqvSmz1ra" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vYAvMhPeBVc?si=sxXrE1yGlA_yGbqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <center>[:simple-youtube: **Demo**](https://youtu.be/9T9ORFVy3v8){target=_blank} [:material-web: **Blog**](writeups/accelerating-code-llms/index.md){target=_blank}</center>
+    [:simple-youtube: **Demo**](https://www.youtube.com/watch?v=vYAvMhPeBVc){target=_blank} [:material-web: **Blog**](writeups/AI-plays-mafia/){target=_blank}</center>
 
 </div>
 
 
-!!! quote "[Hire me! :material-file-document: Resume](resume.pdf)"
+!!! note ""
+    <center>
+    [Open to Work. HIRE ME!](resume.pdf){target=_blank}
+
+    [Resume :material-file-document:](resume.pdf){target=_blank}
+    </center>
 
 
 <!-- !!! tip "Featured | testGen: AI Software Tester"
