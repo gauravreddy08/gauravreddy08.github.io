@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
-- [__I made AI play Mafia, and it surprised me__](ai-play-mafia/index.md)
+- [__I made AI play Mafia, and it surprised me__](AI-plays-mafia/index.md)
 
     ---
 

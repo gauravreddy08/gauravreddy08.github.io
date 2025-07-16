@@ -1,6 +1,14 @@
-# Part 1: Teaching AI to know when to talk
+# **Part I. Reinventing AI Conversations**
+
+??? tip "YouTube Video"
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vYAvMhPeBVc?si=4IP5tqFfKdGkiECx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
 
 Today, AI feels more robotic than human. Don't get me wrong, they're brilliant when prompted, but they lack that natural human instinct of knowing when to chime in.
+
+![](syncvsasync.gif)
 
 !!! note ""
 
@@ -10,17 +18,21 @@ Today, AI feels more robotic than human. Don't get me wrong, they're brilliant w
 
 Mafia is a social deduction game where players try to identify hidden killers among them. The killers work to blend in, deflecting suspicion and manipulating conversations. It's the perfect showcase for natural communication timing.
 
-In this game, one has intuitively know not just **what to say**, but **when to say** it. Sometimes silence is strategic. Other times, jumping into a heated debate shifts everything. 
+In this game, one has to intuitively know not just **what to say**, but **when to say** it. Sometimes silence is strategic. Other times, jumping into a heated debate shifts everything. 
 
 ## **The Two-Part Brain**
 
 Inspired by the ["Time to Talk" paper](https://arxiv.org/abs/2506.05309), I split each AI agent into two parts:
 
-!!! note ""
-    **Generator:** Handles "what to say", crafting responses, forming arguments, generating content.
+<center>
+<img src="model-arch.png" width="90%">
+</center>
 
 !!! note ""
     **Scheduler:** Decides "when to speak" by analyzing conversation flow and finding optimal moments to speak.
+
+!!! note ""
+    **Generator:** Handles "what to say", crafting responses, forming arguments, generating content.
 
 These modules will work together, creating AI agents that finally decide for **themselves** when to join conversations.
 
@@ -28,6 +40,11 @@ These modules will work together, creating AI agents that finally decide for **t
 
 !!! quote ""
     ###### When building with AI, my philosophy is to **always think like a human**.
+
+<center>
+<img src="example-context.png">
+<caption>Context input of six AI agents playing Undercover (a version of Mafia)</caption>
+</center>
 
 What's most common and chaotic multi human communication? **Group chats.**
 
@@ -57,7 +74,11 @@ The entire system transformed from rigid, turn-based interaction into something 
 
 ## **AI becomes human?**
 
-The fascinating behavioral patterns I discovered, particularly how AI agents handle deception and detection, are explored in my next post: "Part 2: AI is better detector, than a liar."
+The fascinating behavioral patterns I discovered, particularly how AI agents handle deception and detection, are explored in my next post: [Part II: **"When AI Masters the Art of Deception"**](../Part-II/index.md).
+
+!!! quote "Open to work"
+
+    [:material-file-document: Resume](../../../resume.pdf){:target="_blank"}
 
 
 
