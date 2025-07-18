@@ -6,7 +6,94 @@ hide:
 
 # **Gaurav Tadkapally**
 
+<center>
+<span style="font-size: 21px; font-weight: bold;">If you are seeing this, you are probably interested in my work.</span>
+</center>
+
 <div class="grid cards" markdown>
+
+
+!!! quote ""
+
+    <center>
+
+    <span style="font-size: 18px; font-weight: bold;">**I made clone of Cursor**</span>
+
+    <iframe width="560" height="270" src="https://www.youtube.com/embed/ij5LJVJD6ac?si=cVLT2aJvIotBlm1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+
+!!! quote ""
+
+    <center>
+    <span style="font-size: 18px; font-weight: bold;">**I made AI play Mafia**</span>
+
+    <iframe width="560" height="270" src="https://www.youtube.com/embed/vYAvMhPeBVc?si=sxXrE1yGlA_yGbqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </center>
+
+!!! quote ""
+
+    <center>
+    <span style="font-size: 18px; font-weight: bold;">**I made clone of DeepResearch**</span>
+    
+    <iframe width="560" height="270" src="https://www.youtube.com/embed/n5vYcVVIurg?si=Y8H1cuiJmeuWI0Tq"" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    </center>
+
+</div>
+
+---
+
+<div class="grid cards" markdown>
+
+- <center>[:material-code-json: __Everything in ML from scratch__](everything-from-scratch/index.md){target=_blank}</center>
+- <center>[:material-view-grid-plus-outline: __Projects__](projects/index.md){target=_blank}</center>
+- <center>[:material-newspaper: __Technical articles and notes on ML__](writeups/index.md){target=_blank}</center>
+
+</div>
+
+
+<div class="grid cards" markdown>
+
+!!! quote ""
+
+    <center>
+    [Open to work! Hire me! Resume](resume.pdf){target=_blank}
+    </center>
+</div>
+
+
+<!-- <div class="grid cards" markdown>
+
+- <center>[Subscribe to our newsletter](#){ .md-button }</center>
+
+- <center>[Subscribe to our newsletter](#){ .md-button }</center>
+
+- <center>[Subscribe to our newsletter](#){ .md-button }</center> -->
+<!-- 
+    ---
+    
+
+    Technical articles, tutorials, and notes on anything machine learning.
+
+- [__Building ML from scratch__](everything-from-scratch/index.md)
+
+    ---
+
+    Building ML from scratch, focusing on the fundamentals and the __*matrix multiplications*__.
+
+- [__Projects__](projects/index.md)
+
+    ---
+
+    A collection of ML projects focused on RAG, LLMs, Transformers, and deep neural networks.  -->
+
+</div>
+
+
+
+
+<!-- <div class="grid cards" markdown>
 
 - [__Write-ups__](writeups/index.md)
 
@@ -54,7 +141,7 @@ hide:
     [Open to Work. HIRE ME!](resume.pdf){target=_blank}
 
     [Resume :material-file-document:](resume.pdf){target=_blank}
-    </center>
+    </center> -->
 
 
 <!-- !!! tip "Featured | testGen: AI Software Tester"
