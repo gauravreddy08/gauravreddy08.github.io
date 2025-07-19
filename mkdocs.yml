@@ -1,6 +1,12 @@
 site_name: Gaurav
 site_url: https://www.gtadkapally.com
 
+nav:
+  - Gaurav: index.md
+  - Writeups: writeups/index.md
+  - Everthing from scratch: everything-from-scratch/index.md
+  - Projects: projects/index.md
+
 theme:
   icon:
     annotation: material/plus-circle

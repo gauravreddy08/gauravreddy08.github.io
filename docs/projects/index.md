@@ -19,7 +19,7 @@ hide:
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/vYAvMhPeBVc?si=sxXrE1yGlA_yGbqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    I made AI play Mafia! [:material-web: **Read the blog**](../writeups/AI-plays-mafia/){target=_blank}</center>
+    I made AI play Mafia! [:material-web: **Read the blog**](../writeups/AI-plays-mafia/index.md){target=_blank}</center>
 
 </div>
 
@@ -29,7 +29,7 @@ hide:
     <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/n5vYcVVIurg?si=Y8H1cuiJmeuWI0Tq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    I made Perplexity Clone and called it Poogle! [:material-web: **Read the blog**](../writeups/building-multi-agent-systems/){target=_blank}</center>
+    I made Perplexity Clone and called it Poogle! [:material-web: **Read the blog**](../writeups/building-multi-agent-systems/index.md){target=_blank}</center>
 
 
 !!! note ""

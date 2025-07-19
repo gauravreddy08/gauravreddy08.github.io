@@ -1,3 +1,11 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
+<!-- mkdocs-exclude -->
+
 # **Blogs**
 
 <div class="grid cards" markdown>
