@@ -7,37 +7,32 @@ hide:
 # **Gaurav Tadkapally**
 
 <center>
-<span style="font-size: 21px; font-weight: bold;">If you are seeing this, you are probably interested in my work.</span>
+<span style="font-size: 21px; font-weight: bold;">If you are here, you are probably interested in my work.</span>
 </center>
+
+
 
 <div class="grid cards" markdown>
 
-
-!!! quote ""
-
+-   <center>
+    <figure markdown="span" style="border-radius: 10px; overflow: hidden;">
+        [![Flow](assets/flow.png)](https://www.youtube.com/watch?v=ij5LJVJD6ac){target=_blank}
+    </figure>
+    </center>
     <center>
-
-    <span style="font-size: 18px; font-weight: bold;">**I made clone of Cursor**</span>
-
-    <iframe width="560" height="270" src="https://www.youtube.com/embed/ij5LJVJD6ac?si=cVLT2aJvIotBlm1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- ![](assets/flow.png) -->
     </center>
 
-!!! quote ""
-
-    <center>
-    <span style="font-size: 18px; font-weight: bold;">**I made AI play Mafia**</span>
-
-    <iframe width="560" height="270" src="https://www.youtube.com/embed/vYAvMhPeBVc?si=sxXrE1yGlA_yGbqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+-   <center>
+    <figure markdown="span" style="border-radius: 10px; overflow: hidden;">
+        [![Mafia](assets/mafia.png)](https://www.youtube.com/watch?v=vYAvMhPeBVc){target=_blank}
+    </figure>
     </center>
 
-!!! quote ""
-
-    <center>
-    <span style="font-size: 18px; font-weight: bold;">**I made clone of DeepResearch**</span>
-    
-    <iframe width="560" height="270" src="https://www.youtube.com/embed/n5vYcVVIurg?si=Y8H1cuiJmeuWI0Tq"" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    
+-   <center>
+    <figure markdown="span" style="border-radius: 10px; overflow: hidden;">
+        [![Poogle](assets/poogle.png)](https://www.youtube.com/watch?v=n5vYcVVIurg){target=_blank}
+    </figure>
     </center>
 
 </div>
