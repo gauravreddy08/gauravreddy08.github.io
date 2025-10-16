@@ -1,5 +1,6 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
+export default {
+  // Ensure Tailwind v4 plugin runs so @theme/@utility are recognized
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
 };
-
-export default config;
