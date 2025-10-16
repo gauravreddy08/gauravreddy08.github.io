@@ -18,15 +18,16 @@ const Navigation = () => {
   };
 
   return (
-    <div className="mx-auto max-w-2xl px-6 pt-12 pb-12">
-      <div className="flex items-center gap-4 flex-wrap">
-        <Link href="/" className="text-xl font-medium text-gray-900">
+    <div className="mx-auto max-w-2xl px-4 sm:px-6 pt-8 sm:pt-12 pb-8 sm:pb-12">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 flex-wrap">
+        <Link href="/" className="text-lg sm:text-xl font-medium text-gray-900">
           Gaurav Tadkapally
         </Link>
         
-        {links.map((link, index) => (
-          <span key={link.href} className="flex items-center gap-4">
+        <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
+          {links.map((link) => (
             <Link
+              key={link.href}
               href={link.href}
               className={`text-sm ${
                 isActive(link.href) ? 'text-gray-900' : 'text-gray-500'
@@ -34,8 +35,8 @@ const Navigation = () => {
             >
               {link.label}
             </Link>
-          </span>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

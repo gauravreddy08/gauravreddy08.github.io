@@ -18,7 +18,7 @@ const ProjectCard = ({ title, description, image, link, github, youtube, blog }:
     <div className="block">
       <a href={link} target="_blank" rel="noopener noreferrer" className="block">
         {image && (
-          <div className="relative h-64 bg-gray-100 overflow-hidden mb-3 rounded-2xl">
+          <div className="relative h-48 sm:h-64 bg-gray-100 overflow-hidden mb-3 rounded-2xl">
             <Image
               src={image}
               alt={description}
@@ -28,7 +28,7 @@ const ProjectCard = ({ title, description, image, link, github, youtube, blog }:
           </div>
         )}
       </a>
-      <div className="flex items-start justify-between gap-4 mb-1">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-1">
         <h3 className="text-base font-medium text-gray-900">
           {title}
         </h3>

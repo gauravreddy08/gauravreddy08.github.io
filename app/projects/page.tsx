@@ -3,9 +3,9 @@ import projectsData from '@/content/projects.json';
 
 export default function ProjectsPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 pb-16 pt-12.5">
+    <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-16 pt-12.5">
       {/* Featured projects with cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-16">
         {projectsData.slice(0, 6).map((project, index) => (
           <ProjectCard
             key={index}
@@ -27,7 +27,7 @@ export default function ProjectsPage() {
           <h2 className="text-base font-medium text-gray-900 mb-6">More projects</h2>
           <div className="space-y-4">
             {projectsData.slice(6).map((project: any, index) => (
-              <div key={index} className="flex items-baseline justify-between gap-4">
+              <div key={index} className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 sm:gap-4">
                 <p className="text-sm">
                   <a
                     href={project.link}
