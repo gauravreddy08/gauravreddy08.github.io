@@ -14,7 +14,7 @@ export default function EverythingFromScratchPage() {
   const categories = Object.entries(scratchData);
 
   return (
-    <div className="mx-auto max-w-2xl px-6 pb-16">
+    <div className="mx-auto max-w-2xl px-6 pb-16 pt-4">
       {categories.map(([categoryKey, projects], categoryIndex) => (
         <div key={categoryKey} className={categoryIndex < categories.length - 1 ? "mb-8" : ""}>
           <h2 className="text-base font-medium text-gray-900 mb-4">

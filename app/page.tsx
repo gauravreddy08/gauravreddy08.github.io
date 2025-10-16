@@ -4,7 +4,7 @@ import projectsData from '@/content/projects.json';
 export default function Home() {
   return (
     <div className="pb-8">
-      <div className="mx-auto max-w-2xl px-6 mb-8">
+      <div className="mx-auto max-w-2xl px-6 mb-6">
         <p className="text-gray-700 leading-relaxed">
           <i>bayesian inference</i> supports the <i>hypothesis</i> that you're here to look at my work...
           <br /> 

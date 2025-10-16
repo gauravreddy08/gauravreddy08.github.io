@@ -7,6 +7,11 @@ import Navigation from "@/components/Navigation";
 export const metadata: Metadata = {
   title: "Gaurav Tadkapally",
   description: "Personal portfolio and blog",
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -36,7 +41,7 @@ export default function RootLayout({
         />
         
         <Navigation />
-        <main className="pt-11">
+        <main className="pt-10">
           {children}
         </main>
         <footer className="py-8 mt-20">

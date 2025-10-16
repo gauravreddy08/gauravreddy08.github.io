@@ -8,7 +8,7 @@ export default function WriteupsPage() {
   const mainPosts = posts.filter((post) => !post.slug.includes('/'));
 
   return (
-    <div className="mx-auto max-w-2xl px-6 pb-16">
+    <div className="mx-auto max-w-2xl px-6 pb-16 pt-4">
       <div className="space-y-4">
         {mainPosts.length === 0 ? (
           <p className="text-gray-500">No posts yet.</p>

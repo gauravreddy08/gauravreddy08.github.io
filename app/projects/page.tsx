@@ -3,7 +3,7 @@ import projectsData from '@/content/projects.json';
 
 export default function ProjectsPage() {
   return (
-    <div className="mx-auto max-w-4xl px-6 pb-16">
+    <div className="mx-auto max-w-4xl px-6 pb-16 pt-12.5">
       {/* Featured projects with cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
         {projectsData.slice(0, 6).map((project, index) => (
