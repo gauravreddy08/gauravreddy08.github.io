@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafafa;
+  --background: #faf9f5;
   --foreground: #1a1a1a;
   --border: #e5e5e5;
   --card-bg: #ffffff;
@@ -20,10 +20,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Remove all transitions and animations */
+/* Fast, subtle transitions for interactive elements only */
 * {
-  transition: none !important;
-  animation: none !important;
+  transition: none;
+}
+
+/* Ultra-fast transitions on links for snappy feel */
+a {
+  transition: color 100ms ease, opacity 100ms ease;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+/* Smooth button interactions */
+button {
+  transition: background-color 100ms ease, opacity 100ms ease, transform 100ms ease;
+}
+
+button:active {
+  transform: scale(0.98);
 }
 
 /* MDX Content Styles */

@@ -17,6 +17,7 @@ export default function WriteupsPage() {
             <div key={post.slug} className="flex items-baseline justify-between gap-4">
               <Link
                 href={`/writeups/${post.slug}`}
+                prefetch={true}
                 className="text-gray-900 underline"
               >
                 {post.title}

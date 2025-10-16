@@ -24,6 +24,7 @@ const ProjectCard = ({ title, description, image, link, github, youtube, blog }:
               alt={description}
               fill
               className="object-cover"
+              unoptimized={image.endsWith('.gif')}
             />
           </div>
         )}

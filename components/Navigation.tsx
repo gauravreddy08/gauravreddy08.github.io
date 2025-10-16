@@ -20,7 +20,7 @@ const Navigation = () => {
   return (
     <div className="mx-auto max-w-2xl px-4 sm:px-6 pt-8 sm:pt-12 pb-8 sm:pb-12">
       <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 flex-wrap">
-        <Link href="/" className="text-lg sm:text-xl font-medium text-gray-900">
+        <Link href="/" prefetch={true} className="text-lg sm:text-xl font-medium text-gray-900">
           Gaurav Tadkapally
         </Link>
         
@@ -29,6 +29,7 @@ const Navigation = () => {
             <Link
               key={link.href}
               href={link.href}
+              prefetch={true}
               className={`text-sm ${
                 isActive(link.href) ? 'text-gray-900' : 'text-gray-500'
               }`}
