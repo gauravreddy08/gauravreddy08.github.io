@@ -48,7 +48,7 @@ export default function RootLayout({
           <div className="mx-auto max-w-2xl px-4 sm:px-6">
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 text-sm text-gray-500">
               <div className="flex gap-4 sm:gap-6 flex-wrap">
-                <a href="https://github.com/gtadkapally" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/gauravreddy08" target="_blank" rel="noopener noreferrer">
                   github
                 </a>
                 <a href="https://www.linkedin.com/in/gauravreddy08/" target="_blank" rel="noopener noreferrer">
