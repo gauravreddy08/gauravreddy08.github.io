@@ -1,0 +1,47 @@
+{
+  "large language models": [
+    {
+      "title": "gpt-2 + pre-training",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/GPT2/main.py",
+      "tags": ["multi-head attn", "layer-norm"]
+    },
+    {
+      "title": "llama-2",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/llama2/main.py",
+      "tags": ["rope embeddings", "rms-norm", "silu"]
+    },
+    {
+      "title": "llama-3 and llama-3.1",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/llama3/main.py",
+      "tags": ["rope embeddings", "group query attn"]
+    },
+    {
+      "title": "lstm",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/LSTM/LSTM.py",
+      "tags": []
+    }
+  ],
+  "machineLearning": [
+    {
+      "title": "linear regression",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/LinearRegression.py",
+      "tags": ["numpy-only"]
+    },
+    {
+      "title": "logistic regression",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/LogisticRegression.py",
+      "tags": ["numpy-only"]
+    },
+    {
+      "title": "neural network w/ backprop",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/MLP.py",
+      "tags": ["numpy-only"]
+    },
+    {
+      "title": "k-means",
+      "link": "https://github.com/gauravreddy08/everything-from-scratch/blob/main/ml-models/KMeans.ipynb",
+      "tags": []
+    }
+  ]
+}
+

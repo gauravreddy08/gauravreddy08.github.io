@@ -1,0 +1,91 @@
+[
+  {
+    "title": "Flow",
+    "description": "I made my own coding assistant (a clone of cursor) in a week.",
+    "image": "/images/flow.png",
+    "tags": ["AI", "Coding Assistant"],
+    "link": "https://www.youtube.com/watch?v=ij5LJVJD6ac",
+    "github": "https://github.com/gauravreddy08/flow",
+    "youtube": "https://www.youtube.com/watch?v=ij5LJVJD6ac",
+    "blog": ""
+  },
+  {
+    "title": "AK15",
+    "description": "AI that talks to your infra. An AI \"on call\" agent",
+    "image": "/images/ak15.png",
+    "tags": ["AI", "Infrastructure"],
+    "link": "https://youtu.be/j1cpF5gO9rM?si=LL9Edqc4uq5Ylpb_",
+    "github": "https://github.com/gauravreddy08/ak15",
+    "youtube": "https://youtu.be/j1cpF5gO9rM?si=LL9Edqc4uq5Ylpb_",
+    "blog": ""
+  },
+  {
+    "title": "AI plays Mafia",
+    "description": "Bunch of AI agents play a game of mafia and try to lie to each other. Asynchronous AI communication",
+    "image": "/images/aiplaysmafia.png",
+    "tags": ["AI", "Multi-Agent", "Game"],
+    "link": "https://youtu.be/vYAvMhPeBVc",
+    "github": "https://github.com/gauravreddy08/ai-social-deduction",
+    "youtube": "https://youtu.be/vYAvMhPeBVc",
+    "blog": "/writeups/AI-plays-mafia"
+  },
+  {
+    "title": "Poogle",
+    "description": "Deep research agent (perplexity clone). Multi agent search retrieval system",
+    "image": "/images/poogle.png",
+    "tags": ["AI", "Search", "Multi-Agent"],
+    "link": "https://youtu.be/n5vYcVVIurg",
+    "github": "https://github.com/gauravreddy08/poogle",
+    "youtube": "https://youtu.be/n5vYcVVIurg",
+    "blog": "/writeups/building-multi-agent-systems"
+  },
+  {
+    "title": "Gitplexity",
+    "description": "Perplexity for Github. Easier way to navigate and understand codebases",
+    "image": "/images/gitplexity.png",
+    "tags": ["AI", "Developer Tools", "GitHub"],
+    "link": "https://youtu.be/n5vYcVVIurg",
+    "github": "https://github.com/gauravreddy08/poogle",
+    "youtube": "https://youtu.be/n5vYcVVIurg",
+    "blog": ""
+  },
+  {
+    "title": "Glancy AI",
+    "description": "AI product recommendation: AI that watches MKBHD's YT video to tell you which iPhone to buy",
+    "image": "/images/glancyai.gif",
+    "tags": ["AI", "Product Recommendation"],
+    "link": "https://github.com/gauravreddy08/GlancyAI",
+    "github": "https://github.com/gauravreddy08/GlancyAI",
+    "youtube": ""
+  },
+  {
+    "title": "ViT",
+    "description": "PyTorch implementation of \"An Image is Worth 16X16 Words\" paper",
+    "image": "",
+    "tags": ["PyTorch", "Vision Transformer"],
+    "link": "https://github.com/gauravreddy08/pytorch-vision-transformer",
+    "github": "https://github.com/gauravreddy08/pytorch-vision-transformer",
+    "youtube": ""
+  },
+  {
+    "title": "Xtinguish",
+    "description": "CNN image classification model to detect wildfires",
+    "image": "",
+    "tags": ["CNN", "Image Classification"],
+    "link": "https://github.com/gauravreddy08/xtinguish",
+    "github": "https://github.com/gauravreddy08/xtinguish",
+    "youtube": "",
+    "blog": "",
+    "paper": "https://link.springer.com/article/10.1007/s42979-022-01160-7"
+  },
+  {
+    "title": "FoodVision",
+    "description": "End-to-end CNN image classification model to identify ",
+    "image": "",
+    "tags": ["CNN", "Image Classification"],
+    "link": "https://github.com/gauravreddy08/food-vision",
+    "github": "https://github.com/gauravreddy08/food-vision",
+    "youtube": "",
+    "blog": ""
+  }
+]

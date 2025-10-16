@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+A minimal, modern portfolio website built with Next.js 14, featuring a blog system with MDX support.
+
+## Features
+
+- 🎨 Minimal, clean design with off-white aesthetic
+- 📝 Easy blog publishing with Markdown/MDX
+- 🚀 Built with Next.js 14 App Router
+- 💅 Styled with Tailwind CSS
+- 🎯 Three main sections: Projects, Everything from Scratch, Writeups
+- 📱 Fully responsive design
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+portfolio/
+├── app/                          # Next.js app directory
+│   ├── layout.tsx               # Root layout with navigation
+│   ├── page.tsx                 # Home page
+│   ├── projects/                # Projects section
+│   ├── writeups/                # Blog posts (writeups)
+│   └── everything-from-scratch/ # Implementation tutorials
+├── components/                   # React components
+│   ├── Navigation.tsx           # Main navigation bar
+│   └── ProjectCard.tsx          # Project display card
+├── content/                      # Content files
+│   ├── writeups/                # Markdown files for writeups
+│   ├── everything-from-scratch/ # Markdown files for tutorials
+│   └── projects.json            # Project metadata
+├── lib/                         # Utility functions
+│   └── mdx.ts                   # MDX processing utilities
+└── public/                      # Static assets
+    └── images/                  # Project images
+```
 
-## Learn More
+## Adding Content
 
-To learn more about Next.js, take a look at the following resources:
+### Writing a Blog Post
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Create a new `.md` or `.mdx` file in either:
+   - `content/writeups/` for technical articles
+   - `content/everything-from-scratch/` for implementation tutorials
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Add frontmatter at the top:
 
-## Deploy on Vercel
+```markdown
+---
+title: "Your Post Title"
+date: "2025-10-15"
+description: "A brief description of your post"
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Your Post Title
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Your content here...
+```
+
+3. The post will automatically appear on the website!
+
+### Adding a Project
+
+Edit `content/projects.json`:
+
+```json
+{
+  "title": "Project Name",
+  "description": "Brief description",
+  "image": "/images/project-image.jpg",
+  "tags": ["Tag1", "Tag2"],
+  "link": "https://project-url.com",
+  "category": "Research",
+  "date": "2024"
+}
+```
+
+## Customization
+
+### Colors
+
+Edit `app/globals.css` to change the color scheme:
+
+```css
+:root {
+  --background: #fafafa;  /* Main background */
+  --foreground: #1a1a1a;  /* Text color */
+  --border: #e5e5e5;      /* Border color */
+  --card-bg: #ffffff;     /* Card background */
+}
+```
+
+### Personal Information
+
+Update the following files:
+- `app/layout.tsx` - Footer links (GitHub, LinkedIn, Email)
+- `app/page.tsx` - Hero section bio and content
+- `next.config.ts` - Site metadata
+
+## Markdown Features
+
+The blog supports:
+- Syntax highlighting for code blocks
+- GitHub Flavored Markdown (GFM)
+- Auto-generated heading links
+- Tables, task lists, and more
+
+Example:
+
+\`\`\`python
+def hello_world():
+    print("Hello, World!")
+\`\`\`
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Deploy!
+
+### Other Platforms
+
+```bash
+npm run build
+npm start
+```
+
+Or deploy the `.next` output directory to any Node.js hosting platform.
+
+## License
+
+MIT License - feel free to use this template for your own portfolio!
+
+## Contact
+
+- GitHub: [gtadkapally](https://github.com/gtadkapally)
+- LinkedIn: [gauravreddy08](https://www.linkedin.com/in/gauravreddy08/)
