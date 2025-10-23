@@ -1,5 +1,6 @@
 ---
 title: "cold mail -> 7 interviews/week"
+date: "2025-10-23"
 ---
 
 ## cold mail → 7 interviews/week
