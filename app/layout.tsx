@@ -6,7 +6,7 @@ import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "Gaurav Tadkapally",
-  description: "Personal portfolio and blog",
+  description: "Works of Gaurav Tadkapally",
   icons: {
     icon: '/icon.png',
     shortcut: '/icon.png',
@@ -62,7 +62,7 @@ export default function RootLayout({
                 </a>
               </div>
               <span className="text-gray-500">
-                tadkapal [at] usc [dot] edu
+                gtadkapally [at] gmail [dot] com
               </span>
             </div>
           </div>
