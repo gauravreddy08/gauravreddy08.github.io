@@ -16,7 +16,7 @@
     "gray-matter": "^4.0.3",
     "hast-util-to-jsx-runtime": "^2.3.6",
     "highlight.js": "^11.11.1",
-    "next": "15.5.5",
+    "next": "15.5.26",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "rehype-autolink-headings": "^7.1.0",
