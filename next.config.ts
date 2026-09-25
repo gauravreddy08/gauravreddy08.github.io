@@ -14,6 +14,14 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/thanos',
+        destination: '/writeups/thanos',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

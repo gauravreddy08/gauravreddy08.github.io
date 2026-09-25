@@ -1,5 +1,6 @@
 import { getPostBySlug, getPostSlugs, processMarkdownToReact } from '@/lib/mdx';
 import MarkdownContent from '@/components/MarkdownContent';
+import TweetEmbeds from '@/components/TweetEmbeds';
 import Link from 'next/link';
 
 export async function generateStaticParams() {
@@ -31,6 +32,7 @@ export default async function WriteupPost({ params }: { params: Promise<{ slug: 
       <article className="prose prose-gray max-w-none">
         <MarkdownContent>{processedContent}</MarkdownContent>
       </article>
+      <TweetEmbeds />
     </div>
   );
 }
