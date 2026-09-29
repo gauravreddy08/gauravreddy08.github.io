@@ -20,6 +20,14 @@ const nextConfig: NextConfig = {
         source: '/thanos',
         destination: '/writeups/thanos',
       },
+      {
+        source: '/h1b-data',
+        destination: 'https://h1b-wage-map-rho.vercel.app/h1b-data',
+      },
+      {
+        source: '/h1b-data/:path*',
+        destination: 'https://h1b-wage-map-rho.vercel.app/h1b-data/:path*',
+      },
     ];
   },
 };
