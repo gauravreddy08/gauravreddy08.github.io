@@ -28,6 +28,14 @@ const nextConfig: NextConfig = {
         source: '/h1b-data/:path*',
         destination: 'https://h1b-wage-map-rho.vercel.app/h1b-data/:path*',
       },
+      {
+        source: '/learn-cs',
+        destination: 'https://workbench-alpha-seven.vercel.app/learn-cs',
+      },
+      {
+        source: '/learn-cs/:path*',
+        destination: 'https://workbench-alpha-seven.vercel.app/learn-cs/:path*',
+      },
     ];
   },
 };
