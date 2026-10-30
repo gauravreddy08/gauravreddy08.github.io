@@ -36,6 +36,14 @@ const nextConfig: NextConfig = {
         source: '/learn-cs/:path*',
         destination: 'https://workbench-alpha-seven.vercel.app/learn-cs/:path*',
       },
+      {
+        source: '/ne-trip',
+        destination: 'https://ne-trip.vercel.app/ne-trip',
+      },
+      {
+        source: '/ne-trip/:path*',
+        destination: 'https://ne-trip.vercel.app/ne-trip/:path*',
+      },
     ];
   },
 };
