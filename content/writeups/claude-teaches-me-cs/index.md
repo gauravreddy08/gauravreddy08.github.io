@@ -8,21 +8,21 @@ github: "https://github.com/gauravreddy08/workbench"
 
 I'm a year into my first job. I train models, I ship demos fast, I've built GPT-2 from scratch.
 
-And I still couldn't tell you the difference between a thread and a process.
+I also skipped a lot of the basics during COVID. Coding agents make it easy to keep skipping them: the code works, the PR merges, and nobody asks why. But the questions that matter most in a design review or an interview are exactly those basics. *How does your solution scale?* Thread or process? Where does the time actually go?
 
-I skipped a lot of the basics during COVID. Coding agents made it easy to keep skipping them. The code works, the PR merges, nobody asks. Until an interviewer does: *"how does your solution scale?"* And I had nothing.
+I wanted real answers to those, not vibes. So I went back for them, with the same tool that made them easy to skip.
 
 ---
 
-### so i asked claude to quiz me first
+### claude quizzed me first
 
-Before teaching me anything, it ran a diagnostic. It turned out I thought the stack was a queue, I had bf16 and fp16 backwards, and I had no feel for numbers at all. How slow is a disk read compared to RAM? No idea.
+Before teaching anything, it ran a diagnostic to find where to start. Some things were already solid: load balancing, tail latency, the KV cache, ranking metrics. Others were worth going back to: memory layout, number formats, and a gut feel for numbers. How much slower is a disk read than RAM? A network hop than a cache hit?
 
-Then it built me a course around exactly those gaps: [gtadkapally.com/learn-cs](https://gtadkapally.com/learn-cs)
+Then it built a course around exactly those: [gtadkapally.com/learn-cs](https://gtadkapally.com/learn-cs)
 
 63 lessons. Memory, networking, databases, scaling, then the ML side: serving models, training, evals, RL. Every lesson works the same way. Guess a number. Build the thing. Measure it. Explain it back in plain words.
 
-The rule I gave it was simple: if a sentence has three words I don't know, I'm lost. So every term gets defined in the margin, right where it shows up.
+The rule I gave it: plain words, full depth. Never drop detail, drop jargon. Every term gets defined in the margin, right where it shows up.
 
 I read it on my phone. At work between runs, on flights, wherever.
 
