@@ -10,7 +10,7 @@ I skipped a lot of CS fundamentals during COVID. Courses never fixed that for me
 
 So I built my own. It's called Workbench, and it's live at [gtadkapally.com/learn-cs](https://gtadkapally.com/learn-cs). 63 lessons, from how memory works to serving LLMs, training, evals and RL. Every lesson works the same way: guess a number, build the thing, measure it on your own machine, explain it back in plain words.
 
-![Workbench](/writeups/claude-teaches-me-cs/cover.png)
+![Workbench](/writeups/claude-teaches-me-cs/workbench.png)
 
 ## starting from a diagnostic
 
@@ -30,7 +30,7 @@ Then I ran one isolated agent per lesson, up to 20 at a time. What came out:
 
 My favourite figure is the latency ladder. Flip it to human scale, where an L1 cache hit takes one second, and the first token back from an LLM API takes 16 years.
 
-![The latency ladder](/writeups/claude-teaches-me-cs/latency-ladder.png)
+![The latency ladder](/writeups/claude-teaches-me-cs/latency-ladder-human-scale.png)
 
 ## the agents ran the code
 
