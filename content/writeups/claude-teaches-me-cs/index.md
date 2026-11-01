@@ -1,49 +1,57 @@
 ---
-title: "i use claude code to teach me cs"
-date: "2026-10-20"
+title: "every cs course is written for someone else, so i had claude code write mine"
+date: "2026-11-01"
 github: "https://github.com/gauravreddy08/workbench"
 ---
 
-## i use claude code to teach me cs
+## every cs course is written for someone else, so i had claude code write mine
 
-I'm a year into my first job. I train models, I ship demos fast, I've built GPT-2 from scratch.
+I skipped a lot of CS fundamentals during COVID. Courses never fixed that for me. They're written for a generic student: they start at chapter one, spend weeks on what I already know, and rush the parts I actually need. And none of them know I'm serving models on a DGX Spark or training a ranker at work.
 
-I also skipped a lot of the basics during COVID. Coding agents make it easy to keep skipping them: the code works, the PR merges, and nobody asks why. But the questions that matter most in a design review or an interview are exactly those basics. *How does your solution scale?* Thread or process? Where does the time actually go?
+So I built my own. It's called Workbench, and it's live at [gtadkapally.com/learn-cs](https://gtadkapally.com/learn-cs). 63 lessons, from how memory works to serving LLMs, training, evals and RL. Every lesson works the same way: guess a number, build the thing, measure it on your own machine, explain it back in plain words.
 
-I wanted real answers to those, not vibes. So I went back for them, with the same tool that made them easy to skip.
+![Workbench](/writeups/claude-teaches-me-cs/cover.png)
 
----
+## starting from a diagnostic
 
-### claude quizzed me first
+Before writing a single lesson, Claude Code quizzed me across systems and ML. That diagnostic became the spec. Some things were already solid, like load balancing, tail latency, the KV cache and ranking metrics, so those lessons go deeper instead of starting over. The biggest finding was numbers: a gut feel for how slow a disk read is next to RAM, or how much memory a model really needs. So the course opens there.
 
-Before teaching anything, it ran a diagnostic to find where to start. Some things were already solid: load balancing, tail latency, the KV cache, ranking metrics. Others were worth going back to: memory layout, number formats, and a gut feel for numbers. How much slower is a disk read than RAM? A network hop than a cache hit?
+## one style guide, one agent per lesson
 
-Then it built a course around exactly those: [gtadkapally.com/learn-cs](https://gtadkapally.com/learn-cs)
+The whole course hangs off one file, `CLAUDE.md`. It says who the reader is, how a lesson is structured, and one rule above all: plain words, full depth. Never drop detail, drop jargon. Every technical term gets defined in the margin, right where it shows up.
 
-63 lessons. Memory, networking, databases, scaling, then the ML side: serving models, training, evals, RL. Every lesson works the same way. Guess a number. Build the thing. Measure it. Explain it back in plain words.
+Then I ran one isolated agent per lesson, up to 20 at a time. What came out:
 
-The rule I gave it: plain words, full depth. Never drop detail, drop jargon. Every term gets defined in the margin, right where it shows up.
+- 63 lessons
+- 112 interactive figures
+- 1,203 margin definitions
+- 450 build tasks
+- 174 "predict first" boxes
 
-I read it on my phone. At work between runs, on flights, wherever.
+My favourite figure is the latency ladder. Flip it to human scale, where an L1 cache hit takes one second, and the first token back from an LLM API takes 16 years.
 
----
+![The latency ladder](/writeups/claude-teaches-me-cs/latency-ladder.png)
 
-### the podcast didn't work, at first
+## the agents ran the code
 
-I wanted to listen too, so it turned every lesson into a two-host podcast.
+I told every agent to verify what it could by running it on my Mac. That turned up the best parts of the course.
 
-The first version was a disaster. An hour of jargon. Every number, every step, read out loud. It felt like I needed to sit down with a notebook, which defeats the point of a podcast.
+The classic thread race, where `counter += 1` across threads loses updates, mostly doesn't happen anymore. Since Python 3.10 the interpreter only switches threads at certain points, so the textbook demo just runs clean. The lesson now forces the race with a `time.sleep(0)` between the read and the write, and explains why the old demo stopped working.
 
-So we threw it out and rewrote every episode story-first. Around 15 minutes each. Almost no numbers, no formulas. Just: what problem forced this to exist, and what's the one idea.
+Python spends about 30 to 50 nanoseconds per step, and an L1 cache hit takes about 1. So measuring CPU caches in plain Python mostly measures Python. The fix was Numba, which compiles one Python function to machine code. The cache staircase showed up right away, from 1.5 ns per read to 126 ns once the data spills to main memory, within about 2% of the C version at the slow end.
 
-That turned out to be the part I use most. If you're like me and need a hook before you can focus, listen first. You get the shape of the topic in your head, and then the lesson actually lands when you sit down with it. [The episodes are here.](https://music.youtube.com/playlist?list=PLN_1hGjwpaFk)
+One agent even corrected my brief. I'd written that a 500-question eval scoring 70% is accurate to ±2 points. It's ±4.
 
----
+## the podcast, take two
 
-### it's for you too
+I wanted something for walks and flights too, so every lesson got a two-host podcast episode.
 
-I built it for me, so it talks about my DGX Spark and my ranking model. Swap in your own machine. It works the same.
+The first version didn't work. It was an hour of jargon with every number read out loud, and it felt like I needed a notebook. So I rewrote the style guide for audio: ideas, not data, almost no numbers, one thread per episode, told as a story. 63 episodes, about 14 minutes each.
 
-The whole thing is [open source](https://github.com/gauravreddy08/workbench). Fork it, edit the reader profile in `CLAUDE.md` to describe your gaps, and Claude Code writes lessons for you instead of me.
+That turned out to be the part I use most. Listen first and you get the shape of the topic. Then the lesson lands when you sit down with it. [The episodes are here.](https://music.youtube.com/playlist?list=PLN_1hGjwpaFk)
 
-Claude writes the lessons. I still have to type the code and measure the numbers. That part is the point.
+## it keeps growing
+
+Every word I hit in a job post, an interview or Slack goes into a gap inbox on the site. In Claude Code, "triage my workbench inbox" turns those into new lessons or stubs on the map.
+
+Courses used to be something you adapted to. Now the course adapts to you. The whole thing is [open source](https://github.com/gauravreddy08/workbench): fork it, describe what you want to learn in `CLAUDE.md`, and it writes yours.
