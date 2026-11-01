@@ -10,6 +10,16 @@
     "blog": ""
   },
   {
+    "title": "Thanos",
+    "description": "Ask a web page a question out loud. Everything that doesn't answer it snaps away.",
+    "image": "/images/thanos.png",
+    "tags": ["AI", "Jev", "Browser"],
+    "link": "https://x.com/GTadkapally/status/2103555634402926774",
+    "github": "https://github.com/gauravreddy08/thanos",
+    "youtube": "",
+    "blog": "/writeups/thanos"
+  },
+  {
     "title": "AK15",
     "description": "AI that talks to your infra. An AI \"on call\" agent",
     "image": "/images/ak15.png",
