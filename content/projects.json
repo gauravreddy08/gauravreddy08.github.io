@@ -12,7 +12,7 @@
   {
     "title": "Thanos",
     "description": "Ask a web page a question out loud. Everything that doesn't answer it snaps away.",
-    "image": "/images/thanos.png",
+    "image": "/images/thanos-cover.png",
     "tags": ["AI", "Jev", "Browser"],
     "link": "https://x.com/GTadkapally/status/2103555634402926774",
     "github": "https://github.com/gauravreddy08/thanos",
