@@ -1,5 +1,14 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/mdx';
+
+export const metadata: Metadata = {
+  title: 'Write-ups',
+  description: 'Write-ups by Gaurav Tadkapally on LLMs, AI agents, multi-agent systems, scaling laws and building AI products.',
+  alternates: { canonical: '/writeups' },
+  openGraph: { title: 'Write-ups', description: 'Write-ups by Gaurav Tadkapally on LLMs, AI agents, multi-agent systems, scaling laws and building AI products.', url: '/writeups' },
+};
+
 
 export default function WriteupsPage() {
   const posts = getAllPosts('writeups');

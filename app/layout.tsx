@@ -3,10 +3,36 @@ import Script from "next/script";
 import "./globals.css";
 import "highlight.js/styles/github-dark.css";
 import Navigation from "@/components/Navigation";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, TWITTER_HANDLE, personJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Gaurav Tadkapally",
-  description: "Works of Gaurav Tadkapally",
+  metadataBase: new URL(SITE_URL),
+  title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
+  description: SITE_DESCRIPTION,
+  authors: [{ name: SITE_NAME, url: SITE_URL }],
+  creator: SITE_NAME,
+  alternates: {
+    types: {
+      "application/rss+xml": [{ url: "/writeups/feed.xml", title: `${SITE_NAME} · write-ups` }],
+      "text/plain": [{ url: "/llms.txt", title: "llms.txt" }],
+    },
+  },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+    site: TWITTER_HANDLE,
+    creator: TWITTER_HANDLE,
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+  },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   icons: {
     icon: '/icon.png',
     shortcut: '/icon.png',
@@ -22,6 +48,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"

@@ -1,5 +1,14 @@
+import type { Metadata } from 'next';
 import ProjectCard from '@/components/ProjectCard';
 import projectsData from '@/content/projects.json';
+
+export const metadata: Metadata = {
+  title: 'Projects',
+  description: 'Projects by Gaurav Tadkapally: AI coding assistants, browser agents, infra agents and more, with code and demo videos.',
+  alternates: { canonical: '/projects' },
+  openGraph: { title: 'Projects', description: 'Projects by Gaurav Tadkapally: AI coding assistants, browser agents, infra agents and more, with code and demo videos.', url: '/projects' },
+};
+
 
 export default function ProjectsPage() {
   return (

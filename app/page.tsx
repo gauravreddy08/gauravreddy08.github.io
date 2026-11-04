@@ -1,5 +1,10 @@
+import type { Metadata } from 'next';
 import ProjectCard from '@/components/ProjectCard';
 import projectsData from '@/content/projects.json';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 export default function Home() {
   return (
