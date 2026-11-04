@@ -17,6 +17,10 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
+        source: '/writeups/:path(.+)\\.md',
+        destination: '/md/writeups/:path',
+      },
+      {
         source: '/thanos',
         destination: '/writeups/thanos',
       },

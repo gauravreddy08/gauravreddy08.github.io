@@ -1,5 +1,14 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import scratchData from '@/content/everything-from-scratch.json';
+
+export const metadata: Metadata = {
+  title: 'Everything from scratch',
+  description: 'From-scratch implementations by Gaurav Tadkapally: GPT-2, Llama 2 and 3, LSTM, and classic ML models in NumPy.',
+  alternates: { canonical: '/everything-from-scratch' },
+  openGraph: { title: 'Everything from scratch', description: 'From-scratch implementations by Gaurav Tadkapally: GPT-2, Llama 2 and 3, LSTM, and classic ML models in NumPy.', url: '/everything-from-scratch' },
+};
+
 
 // Convert camelCase to readable format
 function formatCategoryName(key: string): string {
