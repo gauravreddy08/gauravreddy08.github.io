@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="820" height="480" rx="14" fill="#faf9f5"/>
+<line x1="410" y1="240" x2="410" y2="65" stroke="#c9c4b8" stroke-width="2"/>
+<line x1="410" y1="240" x2="670" y2="152" stroke="#c9c4b8" stroke-width="2"/>
+<line x1="410" y1="240" x2="670" y2="328" stroke="#c9c4b8" stroke-width="2"/>
+<line x1="410" y1="240" x2="410" y2="415" stroke="#c9c4b8" stroke-width="2"/>
+<line x1="410" y1="240" x2="150" y2="328" stroke="#c9c4b8" stroke-width="2"/>
+<line x1="410" y1="240" x2="150" y2="152" stroke="#c9c4b8" stroke-width="2"/>
+<rect x="315" y="41" width="190" height="48" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="410" y="71" font-size="17" text-anchor="middle" fill="#1a1a1a">persistent runs</text>
+<rect x="575" y="128" width="190" height="48" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="670" y="158" font-size="17" text-anchor="middle" fill="#1a1a1a">context management</text>
+<rect x="575" y="304" width="190" height="48" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="670" y="334" font-size="17" text-anchor="middle" fill="#1a1a1a">tool choice</text>
+<rect x="315" y="391" width="190" height="48" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="410" y="421" font-size="17" text-anchor="middle" fill="#1a1a1a">multimodal input</text>
+<rect x="55" y="304" width="190" height="48" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="150" y="334" font-size="17" text-anchor="middle" fill="#1a1a1a">consume + generate</text>
+<rect x="55" y="128" width="190" height="48" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="150" y="158" font-size="17" text-anchor="middle" fill="#1a1a1a">fast inference</text>
+<circle cx="410" cy="240" r="72" fill="#1a1a1a"/>
+<text x="410" y="236" font-size="20" font-weight="600" text-anchor="middle" fill="#faf9f5">web</text>
+<text x="410" y="260" font-size="20" font-weight="600" text-anchor="middle" fill="#faf9f5">agent</text>
+</svg>

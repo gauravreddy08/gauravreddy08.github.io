@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="900" height="500" rx="14" fill="#faf9f5"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a857a"/></marker></defs>
+<line x1="330" y1="30" x2="330" y2="470" stroke="#e5e5e5" stroke-width="2"/>
+<text x="165" y="58" font-size="21" font-weight="600" text-anchor="middle" fill="#1a1a1a">code</text>
+<text x="165" y="84" font-size="14" text-anchor="middle" fill="#6b675e">many ways to write it, one way to check it</text>
+<rect x="85" y="110" width="160" height="40" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="165.0" y="135.0" font-size="15" text-anchor="middle" fill="#1a1a1a">write a function</text>
+<line x1="165" y1="150" x2="60" y2="215" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="30" y="217" width="60" height="34" rx="6" fill="#fff" stroke="#c9c4b8"/>
+<text x="60" y="239" font-size="13" text-anchor="middle" fill="#6b675e">v1</text>
+<line x1="60" y1="251" x2="165" y2="330" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="165" y1="150" x2="130" y2="215" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="100" y="217" width="60" height="34" rx="6" fill="#fff" stroke="#c9c4b8"/>
+<text x="130" y="239" font-size="13" text-anchor="middle" fill="#6b675e">v2</text>
+<line x1="130" y1="251" x2="165" y2="330" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="165" y1="150" x2="200" y2="215" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="170" y="217" width="60" height="34" rx="6" fill="#fff" stroke="#c9c4b8"/>
+<text x="200" y="239" font-size="13" text-anchor="middle" fill="#6b675e">v3</text>
+<line x1="200" y1="251" x2="165" y2="330" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="165" y1="150" x2="270" y2="215" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="240" y="217" width="60" height="34" rx="6" fill="#fff" stroke="#c9c4b8"/>
+<text x="270" y="239" font-size="13" text-anchor="middle" fill="#6b675e">v4</text>
+<line x1="270" y1="251" x2="165" y2="330" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="75" y="332" width="180" height="46" rx="8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="165.0" y="360.0" font-size="17" text-anchor="middle" fill="#faf9f5" font-weight="600">tests pass  ✓</text>
+<text x="165" y="420" font-size="14" text-anchor="middle" fill="#6b675e">a reward you can trust</text>
+<text x="615" y="58" font-size="21" font-weight="600" text-anchor="middle" fill="#1a1a1a">the web</text>
+<text x="615" y="84" font-size="14" text-anchor="middle" fill="#6b675e">same task, a different flow on every site</text>
+<rect x="535" y="110" width="160" height="40" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="615.0" y="135.0" font-size="15" text-anchor="middle" fill="#1a1a1a">buy a TV</text>
+<line x1="615" y1="150" x2="450" y2="178" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="450" y="196" font-size="14" font-weight="600" text-anchor="middle" fill="#1a1a1a">site A</text>
+<rect x="375" y="208" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="450.0" y="229.0" font-size="14" text-anchor="middle" fill="#1a1a1a">search</text>
+<line x1="450" y1="240" x2="450" y2="252" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="375" y="252" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="450.0" y="273.0" font-size="14" text-anchor="middle" fill="#1a1a1a">product page</text>
+<line x1="450" y1="284" x2="450" y2="296" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="375" y="296" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="450.0" y="317.0" font-size="14" text-anchor="middle" fill="#1a1a1a">add to cart</text>
+<line x1="450" y1="328" x2="450" y2="340" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="375" y="340" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="450.0" y="361.0" font-size="14" text-anchor="middle" fill="#1a1a1a">sign in</text>
+<line x1="450" y1="372" x2="450" y2="384" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="375" y="384" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="450.0" y="405.0" font-size="14" text-anchor="middle" fill="#1a1a1a">pay</text>
+<line x1="615" y1="150" x2="700" y2="178" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="700" y="196" font-size="14" font-weight="600" text-anchor="middle" fill="#1a1a1a">site B</text>
+<rect x="625" y="208" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="700.0" y="229.0" font-size="14" text-anchor="middle" fill="#1a1a1a">sign in</text>
+<line x1="700" y1="240" x2="700" y2="252" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="625" y="252" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="700.0" y="273.0" font-size="14" text-anchor="middle" fill="#1a1a1a">pick a store</text>
+<line x1="700" y1="284" x2="700" y2="296" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="625" y="296" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="700.0" y="317.0" font-size="14" text-anchor="middle" fill="#1a1a1a">product page</text>
+<line x1="700" y1="328" x2="700" y2="340" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="625" y="340" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="700.0" y="361.0" font-size="14" text-anchor="middle" fill="#1a1a1a">add-on pop-up</text>
+<line x1="700" y1="372" x2="700" y2="384" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="625" y="384" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="700.0" y="405.0" font-size="14" text-anchor="middle" fill="#1a1a1a">check out</text>
+<line x1="700" y1="416" x2="700" y2="428" stroke="#8a857a" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="625" y="428" width="150" height="32" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="700.0" y="449.0" font-size="14" text-anchor="middle" fill="#1a1a1a">pay</text>
+<text x="615" y="480" font-size="14" text-anchor="middle" fill="#6b675e">did it take the right steps? hard to say</text>
+</svg>
